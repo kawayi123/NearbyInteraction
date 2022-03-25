@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF3900E027EC6202006A941B /* ThreeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3900DF27EC6202006A941B /* ThreeVC.swift */; };
+		AF9EA98B27EC58CB00C9EE7E /* NIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9EA98427EC58CB00C9EE7E /* NIManager.swift */; };
+		AF9EA98E27EC58CB00C9EE7E /* MPCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9EA98827EC58CB00C9EE7E /* MPCManager.swift */; };
+		AF9EA98F27EC58CB00C9EE7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9EA98927EC58CB00C9EE7E /* ContentView.swift */; };
+		AFDE63F827EC10AB00F1942B /* BleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDE63F727EC10AB00F1942B /* BleViewController.swift */; };
+		AFEA1FE927E976F40027504E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA1FE827E976F40027504E /* AppDelegate.swift */; };
+		AFEA1FED27E976F40027504E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA1FEC27E976F40027504E /* ViewController.swift */; };
+		AFEA1FF027E976F40027504E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFEA1FEE27E976F40027504E /* Main.storyboard */; };
+		AFEA1FF327E976F40027504E /* NearbyDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFEA1FF127E976F40027504E /* NearbyDemo.xcdatamodeld */; };
+		AFEA1FF527E976F60027504E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFEA1FF427E976F60027504E /* Assets.xcassets */; };
+		AFEA1FF827E976F60027504E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFEA1FF627E976F60027504E /* LaunchScreen.storyboard */; };
+		AFEA200327E976F70027504E /* NearbyDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA200227E976F70027504E /* NearbyDemoTests.swift */; };
+		AFEA200D27E976F70027504E /* NearbyDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA200C27E976F70027504E /* NearbyDemoUITests.swift */; };
+		AFEA200F27E976F70027504E /* NearbyDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA200E27E976F70027504E /* NearbyDemoUITestsLaunchTests.swift */; };
+		AFEA201F27E979D60027504E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFEA201E27E979D60027504E /* CoreBluetooth.framework */; };
+		AFEA202027E979E60027504E /* NearbyInteraction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFEA201D27E979B60027504E /* NearbyInteraction.framework */; };
+		AFEA202127E97A010027504E /* libswiftNearbyInteraction.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AFEA201C27E979B60027504E /* libswiftNearbyInteraction.tbd */; };
+		AFEA202327E97B210027504E /* BluetoothLECentral.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA202227E97B210027504E /* BluetoothLECentral.swift */; };
+		AFEA202527E991760027504E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA202427E991760027504E /* SceneDelegate.swift */; };
+		AFEA202727E9A3E10027504E /* BleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEA202627E9A3E10027504E /* BleHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFEA1FFF27E976F70027504E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFEA1FDD27E976F40027504E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFEA1FE427E976F40027504E;
+			remoteInfo = NearbyDemo;
+		};
+		AFEA200927E976F70027504E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFEA1FDD27E976F40027504E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFEA1FE427E976F40027504E;
+			remoteInfo = NearbyDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF3900DF27EC6202006A941B /* ThreeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeVC.swift; sourceTree = "<group>"; };
+		AF9EA98427EC58CB00C9EE7E /* NIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NIManager.swift; sourceTree = "<group>"; };
+		AF9EA98827EC58CB00C9EE7E /* MPCManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPCManager.swift; sourceTree = "<group>"; };
+		AF9EA98927EC58CB00C9EE7E /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AFDE63F727EC10AB00F1942B /* BleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleViewController.swift; sourceTree = "<group>"; };
+		AFEA1FE527E976F40027504E /* NearbyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearbyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFEA1FE827E976F40027504E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFEA1FEC27E976F40027504E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFEA1FEF27E976F40027504E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFEA1FF227E976F40027504E /* NearbyDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NearbyDemo.xcdatamodel; sourceTree = "<group>"; };
+		AFEA1FF427E976F60027504E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFEA1FF727E976F60027504E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFEA1FF927E976F60027504E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFEA1FFE27E976F70027504E /* NearbyDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NearbyDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFEA200227E976F70027504E /* NearbyDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyDemoTests.swift; sourceTree = "<group>"; };
+		AFEA200827E976F70027504E /* NearbyDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NearbyDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFEA200C27E976F70027504E /* NearbyDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyDemoUITests.swift; sourceTree = "<group>"; };
+		AFEA200E27E976F70027504E /* NearbyDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AFEA201C27E979B60027504E /* libswiftNearbyInteraction.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftNearbyInteraction.tbd; path = usr/lib/swift/libswiftNearbyInteraction.tbd; sourceTree = SDKROOT; };
+		AFEA201D27E979B60027504E /* NearbyInteraction.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NearbyInteraction.framework; path = System/Library/Frameworks/NearbyInteraction.framework; sourceTree = SDKROOT; };
+		AFEA201E27E979D60027504E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		AFEA202227E97B210027504E /* BluetoothLECentral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothLECentral.swift; sourceTree = "<group>"; };
+		AFEA202427E991760027504E /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AFEA202627E9A3E10027504E /* BleHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BleHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFEA1FE227E976F40027504E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFEA202127E97A010027504E /* libswiftNearbyInteraction.tbd in Frameworks */,
+				AFEA202027E979E60027504E /* NearbyInteraction.framework in Frameworks */,
+				AFEA201F27E979D60027504E /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFEA1FFB27E976F70027504E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFEA200527E976F70027504E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFEA1FDC27E976F40027504E = {
+			isa = PBXGroup;
+			children = (
+				AFEA1FE727E976F40027504E /* NearbyDemo */,
+				AFEA200127E976F70027504E /* NearbyDemoTests */,
+				AFEA200B27E976F70027504E /* NearbyDemoUITests */,
+				AFEA1FE627E976F40027504E /* Products */,
+				AFEA201B27E979B60027504E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AFEA1FE627E976F40027504E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFEA1FE527E976F40027504E /* NearbyDemo.app */,
+				AFEA1FFE27E976F70027504E /* NearbyDemoTests.xctest */,
+				AFEA200827E976F70027504E /* NearbyDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFEA1FE727E976F40027504E /* NearbyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AF9EA98927EC58CB00C9EE7E /* ContentView.swift */,
+				AF9EA98827EC58CB00C9EE7E /* MPCManager.swift */,
+				AF9EA98427EC58CB00C9EE7E /* NIManager.swift */,
+				AFEA202627E9A3E10027504E /* BleHelper.swift */,
+				AFEA202427E991760027504E /* SceneDelegate.swift */,
+				AFEA202227E97B210027504E /* BluetoothLECentral.swift */,
+				AFEA1FE827E976F40027504E /* AppDelegate.swift */,
+				AFEA1FEC27E976F40027504E /* ViewController.swift */,
+				AFDE63F727EC10AB00F1942B /* BleViewController.swift */,
+				AF3900DF27EC6202006A941B /* ThreeVC.swift */,
+				AFEA1FEE27E976F40027504E /* Main.storyboard */,
+				AFEA1FF427E976F60027504E /* Assets.xcassets */,
+				AFEA1FF627E976F60027504E /* LaunchScreen.storyboard */,
+				AFEA1FF927E976F60027504E /* Info.plist */,
+				AFEA1FF127E976F40027504E /* NearbyDemo.xcdatamodeld */,
+			);
+			path = NearbyDemo;
+			sourceTree = "<group>";
+		};
+		AFEA200127E976F70027504E /* NearbyDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFEA200227E976F70027504E /* NearbyDemoTests.swift */,
+			);
+			path = NearbyDemoTests;
+			sourceTree = "<group>";
+		};
+		AFEA200B27E976F70027504E /* NearbyDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFEA200C27E976F70027504E /* NearbyDemoUITests.swift */,
+				AFEA200E27E976F70027504E /* NearbyDemoUITestsLaunchTests.swift */,
+			);
+			path = NearbyDemoUITests;
+			sourceTree = "<group>";
+		};
+		AFEA201B27E979B60027504E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFEA201E27E979D60027504E /* CoreBluetooth.framework */,
+				AFEA201C27E979B60027504E /* libswiftNearbyInteraction.tbd */,
+				AFEA201D27E979B60027504E /* NearbyInteraction.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFEA1FE427E976F40027504E /* NearbyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFEA201227E976F70027504E /* Build configuration list for PBXNativeTarget "NearbyDemo" */;
+			buildPhases = (
+				AFEA1FE127E976F40027504E /* Sources */,
+				AFEA1FE227E976F40027504E /* Frameworks */,
+				AFEA1FE327E976F40027504E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NearbyDemo;
+			productName = NearbyDemo;
+			productReference = AFEA1FE527E976F40027504E /* NearbyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFEA1FFD27E976F70027504E /* NearbyDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFEA201527E976F70027504E /* Build configuration list for PBXNativeTarget "NearbyDemoTests" */;
+			buildPhases = (
+				AFEA1FFA27E976F70027504E /* Sources */,
+				AFEA1FFB27E976F70027504E /* Frameworks */,
+				AFEA1FFC27E976F70027504E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFEA200027E976F70027504E /* PBXTargetDependency */,
+			);
+			name = NearbyDemoTests;
+			productName = NearbyDemoTests;
+			productReference = AFEA1FFE27E976F70027504E /* NearbyDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFEA200727E976F70027504E /* NearbyDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFEA201827E976F70027504E /* Build configuration list for PBXNativeTarget "NearbyDemoUITests" */;
+			buildPhases = (
+				AFEA200427E976F70027504E /* Sources */,
+				AFEA200527E976F70027504E /* Frameworks */,
+				AFEA200627E976F70027504E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFEA200A27E976F70027504E /* PBXTargetDependency */,
+			);
+			name = NearbyDemoUITests;
+			productName = NearbyDemoUITests;
+			productReference = AFEA200827E976F70027504E /* NearbyDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFEA1FDD27E976F40027504E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					AFEA1FE427E976F40027504E = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					AFEA1FFD27E976F70027504E = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = AFEA1FE427E976F40027504E;
+					};
+					AFEA200727E976F70027504E = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = AFEA1FE427E976F40027504E;
+					};
+				};
+			};
+			buildConfigurationList = AFEA1FE027E976F40027504E /* Build configuration list for PBXProject "NearbyDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFEA1FDC27E976F40027504E;
+			productRefGroup = AFEA1FE627E976F40027504E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFEA1FE427E976F40027504E /* NearbyDemo */,
+				AFEA1FFD27E976F70027504E /* NearbyDemoTests */,
+				AFEA200727E976F70027504E /* NearbyDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFEA1FE327E976F40027504E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFEA1FF827E976F60027504E /* LaunchScreen.storyboard in Resources */,
+				AFEA1FF527E976F60027504E /* Assets.xcassets in Resources */,
+				AFEA1FF027E976F40027504E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFEA1FFC27E976F70027504E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFEA200627E976F70027504E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFEA1FE127E976F40027504E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFEA202527E991760027504E /* SceneDelegate.swift in Sources */,
+				AF9EA98E27EC58CB00C9EE7E /* MPCManager.swift in Sources */,
+				AF9EA98F27EC58CB00C9EE7E /* ContentView.swift in Sources */,
+				AFDE63F827EC10AB00F1942B /* BleViewController.swift in Sources */,
+				AFEA1FED27E976F40027504E /* ViewController.swift in Sources */,
+				AFEA202327E97B210027504E /* BluetoothLECentral.swift in Sources */,
+				AF3900E027EC6202006A941B /* ThreeVC.swift in Sources */,
+				AF9EA98B27EC58CB00C9EE7E /* NIManager.swift in Sources */,
+				AFEA202727E9A3E10027504E /* BleHelper.swift in Sources */,
+				AFEA1FF327E976F40027504E /* NearbyDemo.xcdatamodeld in Sources */,
+				AFEA1FE927E976F40027504E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFEA1FFA27E976F70027504E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFEA200327E976F70027504E /* NearbyDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFEA200427E976F70027504E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFEA200F27E976F70027504E /* NearbyDemoUITestsLaunchTests.swift in Sources */,
+				AFEA200D27E976F70027504E /* NearbyDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFEA200027E976F70027504E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFEA1FE427E976F40027504E /* NearbyDemo */;
+			targetProxy = AFEA1FFF27E976F70027504E /* PBXContainerItemProxy */;
+		};
+		AFEA200A27E976F70027504E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFEA1FE427E976F40027504E /* NearbyDemo */;
+			targetProxy = AFEA200927E976F70027504E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFEA1FEE27E976F40027504E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFEA1FEF27E976F40027504E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFEA1FF627E976F60027504E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFEA1FF727E976F60027504E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFEA201027E976F70027504E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFEA201127E976F70027504E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFEA201327E976F70027504E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2Z94A95K2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NearbyDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NearbyDemo;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth is used to exchange Nearby Interaction configuration data with a connected accessory.";
+				INFOPLIST_KEY_NSNearbyInteractionUsageDescription = "Demonstrate the Nearby Interaction third-party accessory API with a Bluetooth connected accessory";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nearby.demo.NearbyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AFEA201427E976F70027504E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2Z94A95K2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NearbyDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NearbyDemo;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth is used to exchange Nearby Interaction configuration data with a connected accessory.";
+				INFOPLIST_KEY_NSNearbyInteractionUsageDescription = "Demonstrate the Nearby Interaction third-party accessory API with a Bluetooth connected accessory";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nearby.demo.NearbyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AFEA201627E976F70027504E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nearby.demo.NearbyDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NearbyDemo.app/NearbyDemo";
+			};
+			name = Debug;
+		};
+		AFEA201727E976F70027504E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nearby.demo.NearbyDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NearbyDemo.app/NearbyDemo";
+			};
+			name = Release;
+		};
+		AFEA201927E976F70027504E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nearby.demo.NearbyDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NearbyDemo;
+			};
+			name = Debug;
+		};
+		AFEA201A27E976F70027504E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nearby.demo.NearbyDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NearbyDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFEA1FE027E976F40027504E /* Build configuration list for PBXProject "NearbyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFEA201027E976F70027504E /* Debug */,
+				AFEA201127E976F70027504E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFEA201227E976F70027504E /* Build configuration list for PBXNativeTarget "NearbyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFEA201327E976F70027504E /* Debug */,
+				AFEA201427E976F70027504E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFEA201527E976F70027504E /* Build configuration list for PBXNativeTarget "NearbyDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFEA201627E976F70027504E /* Debug */,
+				AFEA201727E976F70027504E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFEA201827E976F70027504E /* Build configuration list for PBXNativeTarget "NearbyDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFEA201927E976F70027504E /* Debug */,
+				AFEA201A27E976F70027504E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AFEA1FF127E976F40027504E /* NearbyDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AFEA1FF227E976F40027504E /* NearbyDemo.xcdatamodel */,
+			);
+			currentVersion = AFEA1FF227E976F40027504E /* NearbyDemo.xcdatamodel */;
+			path = NearbyDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AFEA1FDD27E976F40027504E /* Project object */;
+}
